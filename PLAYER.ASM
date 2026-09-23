@@ -869,10 +869,6 @@ FontTilesEnd:
 include "MM5A.ASM"					;Audio code and data from Mega Man 5 - bank 1
 include "MM5B.ASM"					;Audio code and data from Mega Man 5 - bank 2
 
-SECTION "Padding", ROMX[AudioROM], BANK [$3]
-ds $4000
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;Variables
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
